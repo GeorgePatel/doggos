@@ -1,0 +1,22 @@
+/*.loading {*/
+/*    background: transparent url('https://media4.giphy.com/media/xT5LMHlMHBA7Tjhmpi/giphy.gif?cid=ecf05e47ze9l6gf9lneernarjaxe1jzk7hn92mr6mnksixiz&rid=giphy.gif&ct=g') center no-repeat;*/
+/*}*/
+
+body {
+    background-color: beige;
+}
+
+h1 {
+    justify-content: center;
+    display: flex;
+}
+
+button {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.doggos {
+    
+}

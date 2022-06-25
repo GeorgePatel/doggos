@@ -3,20 +3,61 @@
 /*}*/
 
 body {
-    background-color: beige;
+    background-color: black;
+    color: white;
 }
 
 h1 {
-    justify-content: center;
     display: flex;
+    justify-content: center;
 }
 
-button {
-    justify-content: center;
+.big-button {
     display: flex;
-    margin-bottom: 25px;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.breed-box {
+    display: flex;
+    justify-content: center;
+}
+
+button.add-doggo {
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    /*border: 1px solid black;*/
+}
+
+button.add-doggo:hover {
+    background-color: #ff3232;
+    /*border: 1px solid black;*/
+}
+
+button.add-doggo:active {
+    background-color: #c80000;
+    /*border: 1px solid black;*/
 }
 
 .doggos {
-    
+    margin: 100px 50px 100px 100px;
+    justify-content: space-between;
+}
+
+.dog {
+    margin: 10px;
 }
